@@ -8,7 +8,7 @@ References:
 Yuanyuan Chen, Hao Zhang, Xiao Sun, “Improving Single-Cell RNA-seq Analysis based on relative expression orderings”.
 
 
-# --------------------------Description---------------------------------------------
+# --------------------------Description--------------------------------------
 The advent of single-cell RNA-sequencing (scRNA-seq) provides an unprecedented opportunity to explore gene expression profiles at the single-cell level. 
 However, gene expression values are variables and may be different if measured at different time points or conditions even in the same cell. 
 There is an urgent need for more stable and reliable feature variables in single-cell level to depict cell heterogeneity. 
@@ -31,5 +31,5 @@ It's rows and columns are corresponding to edges and cells, respectively, and it
 
 
 
-# --------------------------Contact---------------------------------------------
+# --------------------------Contact-------------------------------------------
 If any problem or suggestion, please contact Yuanyuan Chen (chenyuanyuan@njau.edu.cn)
