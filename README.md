@@ -1,14 +1,14 @@
-DRM(Delta Rank matrix) construction from scRNA-seq data
+# DRM(Delta Rank matrix) construction from scRNA-seq data
 
 
--------------------------References----------------------------------------
+# -------------------------References----------------------------------------
 # Here is the source code of the construction of DRM(Delta Rank matrix) construction from gene expression matrix.
 
 References:
 Yuanyuan Chen, Hao Zhang, Xiao Sun, “Improving Single-Cell RNA-seq Analysis based on relative expression orderings”.
 
 
---------------------------Description---------------------------------------------
+# --------------------------Description---------------------------------------------
 The advent of single-cell RNA-sequencing (scRNA-seq) provides an unprecedented opportunity to explore gene expression profiles at the single-cell level. 
 However, gene expression values are variables and may be different if measured at different time points or conditions even in the same cell. 
 There is an urgent need for more stable and reliable feature variables in single-cell level to depict cell heterogeneity. 
@@ -22,7 +22,7 @@ cell identification and pseudo-trajectory reconstruction. But more importantly, 
 In addition, DRM provides a new method to construct a cell-specific network for each single cell instead of a group of cells in traditional network construction methods. 
 The excellent performance of DRM is due to it extracting richer gene-association information of biological systems and providing more stable characterization for cells.
 
-We construct DRM in three steps. 
+# We construct DRM in three steps. 
 Schematic illustration of DRM construction.
 (i) Convert GEM with M genes and N cells into rank matrix by ranking all genes according to gene expression values. 
 (ii) Collect gene-gene interaction networks, such as gene association networks in pathways, as the priori background network, which consists of L edges. 
@@ -31,5 +31,5 @@ It's rows and columns are corresponding to edges and cells, respectively, and it
 
 
 
---------------------------Contact---------------------------------------------
+# --------------------------Contact---------------------------------------------
 If any problem or suggestion, please contact Yuanyuan Chen (chenyuanyuan@njau.edu.cn)
